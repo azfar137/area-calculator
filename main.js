@@ -13,7 +13,7 @@ document.write('The area of triangle is:'+ area
 else if (input==2) {
  length = parseFloat(prompt('Enter the  length:'));
  width = parseFloat(prompt('Enter the  width:'));
- area = height * width;
+ area = length * width;
  document.write('The area of rectangle is:'+ area
 );
 }
