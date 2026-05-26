@@ -115,14 +115,14 @@ else if (choice==2) {
  else if (input==5) {
   r = parseFloat(prompt('Enter the radius of the base of cylinder:'));
   h = parseFloat(prompt('Enter the height of cylinder:'));
-  surfaceArea = 2*Math.PI*r(r+h);
+  surfaceArea = 2*Math.PI*r*(r+h);
   document.write('The surface area of cylinder is:'+surfaceArea);
  }
  
  else if (input==6) {
   r = parseFloat(prompt('Enter the radius:'));
   l = parseFloat(prompt('Enter the slant height of cone:'));
-  surfaceArea = Math.PI*r(r+l);
+  surfaceArea = Math.PI*r*(r+l);
   document.write('The surface area of cone is:'+surfaceArea);
  }
  
