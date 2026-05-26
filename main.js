@@ -238,6 +238,7 @@ else if (choice==4) {
  else if (tempInput==5) {
   tempF = parseFloat(prompt('Enter the temperature in Fahrenheit:'));
   tempK = ((tempF-32)*(5/9) + 273.15);
+  document.write('Temperature in Kelvin: ' + tempK);
  }
  
  else if (tempInput==6) {
